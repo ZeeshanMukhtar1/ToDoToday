@@ -1,3 +1,3 @@
 ### Output
 
-![Simple Calculater](./fav/Output.png "Simple Calculater")
+![Simple Calculater](./fav/output.png "ToDoToday")
