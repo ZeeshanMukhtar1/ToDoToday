@@ -1,0 +1,143 @@
+/* Reset CSS */
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #16003B;
+}
+/* Container styling */
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+/* input stylying */
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+/* Add btn stylying */
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #E63E6D;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+/* tasks style */
+#tasks{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+/* task btn */
+.task button{
+    background-color: #16003B;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
+/* responsive css */
+@media (max-width: 480px) {
+    /* adjust container width and center the content */
+    .container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        min-width: auto;
+        border-radius: 0;
+        position: relative;
+    }
+    
+    /* adjust input field and button size */
+    #newtask input[type="text"],
+    #newtask button {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 40px;
+        font-size: 14px;
+    }
+    
+    /* adjust font size and padding for tasks */
+    #tasks {
+        font-size: 14px;
+        padding: 10px;
+        margin-top: 5px;
+    }
+
+    /* adjust task height */
+    .task {
+        height: 40px;
+    }
+
+    /* adjust task button size */
+    .task button {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        border-radius: 3px;
+    }
+}
+
+        
