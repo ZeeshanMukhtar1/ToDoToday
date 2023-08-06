@@ -1,34 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Todo App</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- fav -->
-        <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
-        <link rel="manifest" href="./fav/site.webmanifest">
-        <link rel="shortcut icon" href="./fav/favicon.ico" type="image/x-icon">
-    </head>
-    <body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- fav -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./fav/site.webmanifest" />
+    <link rel="shortcut icon" href="./fav/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
     <!-- parent -->
     <div class="container">
-        <!-- upper portion for the input -->
-        <div id="newtask">
-            <input type="text" placeholder="Task to be done..">
-            <button id="push">Add</button>
-        </div>
-        <!-- lower portion for storing todos -->
-        <div id="tasks"></div>
-
-
+      <!-- upper portion for the input -->
+      <div id="newtask">
+        <input type="text" placeholder="Task to be done.." />
+        <button id="push">Add</button>
+      </div>
+      <!-- lower portion for storing todos -->
+      <div id="tasks"></div>
     </div>
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
